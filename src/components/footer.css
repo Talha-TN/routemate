@@ -1,0 +1,19 @@
+.footer {
+    background-color: #2f384a; /* Same background color as the header */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Vertical padding */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a floating effect */
+    position: fixed; /* Fix the footer to the bottom of the page */
+    width: 100%; /* Make sure it spans the entire width */
+    bottom: 0; /* Position it at the bottom */
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.8rem; /* Adjust font size for smaller screens */
+      padding: 15px 0; /* Adjust padding for smaller screens */
+    }
+  }
+  

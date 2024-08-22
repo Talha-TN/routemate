@@ -1,0 +1,32 @@
+/* PageNotFound.css */
+
+.pagenotfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .message {
+    font-size: 2.5rem; /* Large text */
+    color: #333; /* Dark text color */
+    background: linear-gradient(to right, #ba2b07, #feb47b); /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn 2s ease-in-out, float 3s ease-in-out infinite;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Float animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
